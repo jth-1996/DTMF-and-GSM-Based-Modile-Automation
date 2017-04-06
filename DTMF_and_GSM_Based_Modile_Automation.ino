@@ -26,8 +26,8 @@
 
 
 // Defining interfacing pins for Relay board
-# define RELAY_1 8
-# define RELAY_2 9
+# define RELAY_1 8 // Connect the Control of Relay 1 toD8
+# define RELAY_2 9 // Connect the Control of Relay 2 toD9
 
 SoftwareSerial gsm_board(GSM_RX,GSM_TX);
 
